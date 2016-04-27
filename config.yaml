@@ -1,6 +1,0 @@
-contentdir: "content"
-layoutdir: "layouts"
-publishdir: "public"
-baseurl: "http://anthony-neontribe.github.io/untangled"
-title: "Untangled"
-canonifyurls: true
