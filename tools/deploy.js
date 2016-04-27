@@ -20,7 +20,7 @@ shelljs.exec('hugo');
 
 logger.info('Adding changes to git...');
 shelljs.exec('git add -A');
-shelljs.exec('git add -m "Rebuilding site '+ moment().format('dddd, MMMM Do YYYY, h:mm:ss a') +'."');
+shelljs.exec('git commit -m "Rebuilding site '+ moment().format('dddd, MMMM Do YYYY, h:mm:ss a') +'."');
 shelljs.exec('git push origin master');
 
 logger.info('Pushing subtree...');
