@@ -1,0 +1,29 @@
+{
+  "name": "untangled",
+  "version": "0.0.1",
+  "description": "Untangled 2016",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node tools/check.js",
+    "deploy": "node tools/deploy.js",
+    "dev": "hugo server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthony-neontribe/untangled.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthony-neontribe/untangled/issues"
+  },
+  "homepage": "https://github.com/anthony-neontribe/untangled#readme",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "log": "^1.4.0",
+    "moment": "^2.13.0",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.7.0"
+  }
+}
