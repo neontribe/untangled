@@ -4,7 +4,7 @@ var moment = require('moment');
 var shelljs = require('shelljs');
 
 var logger = new Log('info');
-logger.info(colors.green('Deploying updates to Github...'));
+logger.info(colors.yellow('Deploying updates to Github...'));
 
 if(!shelljs.which('hugo')) { 
     logger.warning(colors.red('Hugo is required in $PATH to deploy, https://gohugo.io'));S
@@ -15,14 +15,16 @@ if(!shelljs.which('git')) {
     shelljs.exit(1);
 }
 
-logger.info(colors.green('Running Hugo...'));
+logger.info(colors.yellow('Running Hugo...'));
 shelljs.exec('hugo');
+logger.info(colors.green('OK'));
 
-logger.info('Adding changes to git...');
+logger.info(colors.yellow('Adding changes to git...'));
 shelljs.exec('git add -A');
 shelljs.exec('git commit -m "Rebuilding site '+ moment().format('dddd, MMMM Do YYYY, h:mm:ss a') +'."');
 shelljs.exec('git push origin master');
-
-logger.info('Pushing subtree...');
-shelljs.exec('git subtree push --prefix=public git@github.com:anthony-neontribe/untangled.git gh-pages');
 logger.info(colors.green('OK'));
+
+logger.info(colors.yellow('Pushing subtree...'));
+shelljs.exec('git subtree push --prefix=public git@github.com:anthony-neontribe/untangled.git gh-pages');
+logger.info(colors.green('FIN..'));
