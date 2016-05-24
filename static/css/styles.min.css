@@ -117,30 +117,40 @@ h3 {
     background-color: #FC7138;
 }
 
-#theme > div {
+#overview > div {
+    background-color: #fff;
+}
+#overview svg {
+    position: relative;
+    top: 10px;
+}
+#overview path {
+    fill: #FC7138;
+}
+
+#requirements .l, #requirements .r {
+    fill: #eee;
+}
+#requirements .m {
+    fill: #FC7138;
+    stroke: #FC7138;
+    stroke-width: 0;
+}
+#requirements svg {
+    position: relative;
+    top: 10px;
     background-color: #fff;
 }
 
-#overview > div,
+#logo > div,
 #requirements > div {
     color: #fff;
     background-color: #FC7138;
 }
 
-#overview path {
+#logo path {
     fill: #FC7138;
     stroke: #FC7138;
-}
-
-#theme path,
-#requirements path {
-    fill: #fff;
-    stroke: #fff;
-}
-
-#requirements svg {
-    position: relative;
-    top: 10px;
 }
 
 @media screen and (max-width: 640px) {
