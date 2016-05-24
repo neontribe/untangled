@@ -15,6 +15,10 @@ if(!shelljs.which('git')) {
     shelljs.exit(1);
 }
 
+logger.info(colors.yellow('Pulling subtree...'));
+shelljs.exec('git subtree ipull --prefix=public git@github.com:anthony-neontribe/untangled.git gh-pages');
+logger.info(colors.green('OK'));
+
 logger.info(colors.yellow('Running Hugo...'));
 shelljs.exec('hugo');
 logger.info(colors.green('OK'));
