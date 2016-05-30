@@ -35,6 +35,28 @@ section {
     background: #FC7138;
 }
 
+#splash p:first-child {
+    transform:translateY(250%);
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Flamenco', cursive;
+
+}
+
+#splash p:nth-child(3) {
+    transform:translateY(430%);
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Flamenco', cursive;
+
+}
+
+.hidden {
+    display: none;
+}
+
 .arrow {
     position: absolute;
     bottom: 1rem;
