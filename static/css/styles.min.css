@@ -143,13 +143,13 @@ h3 {
     background-color: #fff;
 }
 
-#logo > div,
+#top > div,
 #requirements > div {
     color: #fff;
     background-color: #FC7138;
 }
 
-#logo path {
+#top path {
     fill: #FC7138;
     stroke: #FC7138;
 }
