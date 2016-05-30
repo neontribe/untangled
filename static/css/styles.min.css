@@ -35,23 +35,6 @@ section {
     background: #FC7138;
 }
 
-#splash p:first-child {
-    transform:translateY(250%);
-    color: #fff;
-    text-align: center;
-    font-size: 6rem;
-    font-family: 'Flamenco', cursive;
-
-}
-
-#splash p:nth-child(3) {
-    transform:translateY(430%);
-    color: #fff;
-    text-align: center;
-    font-size: 5rem;
-    font-family: 'Flamenco', cursive;
-
-}
 
 .hidden {
     display: none;
@@ -71,7 +54,7 @@ section {
     font-weight: bold;
 }
 
-h1 {
+.titles {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -83,6 +66,10 @@ h1 {
     font-size: 10rem;
     font-weight: bold;
     color: #fff;
+}
+
+.titles p {
+    font-size: 3rem;
 }
 
 h1 span {
@@ -180,4 +167,54 @@ h3 {
     h1 {
         font-size: 4rem;
     }
+}
+
+.row * {
+    margin: 0;
+    padding: 0;
+}
+
+.row *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.row ul {
+    width: 650px;
+    margin: 40px auto;
+    list-style: none;
+}
+
+.row li {
+    display: flex;
+}
+
+.row li:last-child {
+    border: 0;
+}
+
+.row li p {
+    display: block;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.row li p:nth-child(1) {
+    position: relative;
+    padding-right: 25px;
+    font-size: 14px;
+    line-height: 2.5;
+    color: #000;
+}
+
+.row li p:nth-child(2){
+    flex: 1;
+    font-size: 24px;
+}
+
+.row li p span {
+    display: block;
+    margin: 5px 0 0;
+    font-size: 12px;
+    font-style: italic;
+    color: #aaa;
 }
