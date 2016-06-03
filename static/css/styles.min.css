@@ -35,6 +35,11 @@ section {
     background: #FC7138;
 }
 
+
+.hidden {
+    display: none;
+}
+
 .arrow {
     position: absolute;
     bottom: 1rem;
@@ -42,13 +47,14 @@ section {
     color: #fff;
     font-size: 3rem;
     text-align: center;
+    cursor: pointer;
 }
 
 #splash:hover .arrow {
     font-weight: bold;
 }
 
-h1 {
+.titles {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -60,6 +66,10 @@ h1 {
     font-size: 10rem;
     font-weight: bold;
     color: #fff;
+}
+
+.titles p {
+    font-size: 3rem;
 }
 
 h1 span {
@@ -142,13 +152,13 @@ h3 {
     background-color: #fff;
 }
 
-#logo > div,
+#top > div,
 #requirements > div {
     color: #fff;
     background-color: #FC7138;
 }
 
-#logo path {
+#top path {
     fill: #FC7138;
     stroke: #FC7138;
 }
@@ -157,4 +167,54 @@ h3 {
     h1 {
         font-size: 4rem;
     }
+}
+
+.row * {
+    margin: 0;
+    padding: 0;
+}
+
+.row *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.row ul {
+    width: 650px;
+    margin: 40px auto;
+    list-style: none;
+}
+
+.row li {
+    display: flex;
+}
+
+.row li:last-child {
+    border: 0;
+}
+
+.row li p {
+    display: block;
+    padding: 20px;
+    line-height: 1.4;
+}
+
+.row li p:nth-child(1) {
+    position: relative;
+    padding-right: 25px;
+    font-size: 14px;
+    line-height: 2.5;
+    color: #000;
+}
+
+.row li p:nth-child(2){
+    flex: 1;
+    font-size: 24px;
+}
+
+.row li p span {
+    display: block;
+    margin: 5px 0 0;
+    font-size: 12px;
+    font-style: italic;
+    color: #aaa;
 }
