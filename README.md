@@ -1,7 +1,7 @@
 # Untangled
 To build 'hugo' will need to be available in $PATH
 
-Create local folder for exeutables and update the $PATH variable
+Create local folder for executable and update the $PATH variable
 
 `mkdir -p ${HOME}/bin`
 
