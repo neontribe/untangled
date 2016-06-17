@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css?family=Flamenco:400,300);
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    background-color: #FC7138;
+}
+
+main {
+    background-color: #fff;
+}
+
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+    margin-bottom: 1rem;
+}
+
+iframe {
+    width: 100%;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+/* hidden class for Javascript interaction */
+.hidden {
+    display: none;
+}
+
+/* Splash arrow/cross styles */
+.arrow {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.off {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    right: 1rem;
+    top: 1rem;
+}
+.on {
+    transform: rotate(45deg);
+}
+
+/* Splash and main heading styles */
+#splash { 
+    width: 100%;
+    height: 100vh;
+    background: #FC7138;
+}
+
+#splash:hover .arrow {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+}
+h1 span {
+    font-weight: normal;
+}
+
+/* Wrapper for headings and subtitles */
+.titles {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Flamenco', cursive;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+/* Alt heading styles */
+h2 {
+    font-family: 'Flamenco', cursive;
+    font-weight: bold;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+/* Styles for scrolling through splash */
+.scrolled {
+    padding-top: 10rem;
+}
+
+.scrolled #splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    transition: height 500ms;
+    z-index: 10;
+}
+
+.scrolled #splash .arrow {
+    display: none;
+}
+
+.scrolled .titles {
+    position: static;
+    transform: none;
+    padding: 0;
+}
+
+.scrolled h1 {
+    font-size: 3rem;
+}
+
+/* NT Logo styling */
+.row.logo {
+    padding-bottom: 0;
+}
+
+.row.logo img {
+    display: block;
+    width: 200px;
+    margin: 10px auto 0 auto;
+}
+
+/* Theme li subtitles */ 
+ul {
+    list-style: none;
+}
+li {
+    line-height: 1.3;
+}
+#theme li span {
+    font-size: 1.2rem;
+}
+#theme li span:after {
+    font-size: 2.3rem;
+    content: '\00a0\0007B\00a0'; 
+}
+
+/* Emphasised text, Overview */
+.leader {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Divider SVG Styles */
+#divider-arrow path {
+    fill: #FC7138;
+    stroke: #FC7138;
+}
+
+#divider-bubbles {
+    position: relative;
+    top: 10px;
+}
+#divider-bubbles path {
+    fill: #FC7138;
+}
+#divider-bubbles.flipped {
+    transform: rotate(180deg);
+    top: 0;
+}
+
+#divider-pointer {
+    position: relative;
+    top: 10px;
+    background-color: #FC7138;
+}
+#divider-pointer .l, #divider-pointer .r {
+    fill: #fb4d06;
+}
+#divider-pointer .m {
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+/* Individual section styles */
+#theme, #form, #logo {
+    color: #fff;
+    background-color: #FC7138;
+}
+
+#overview .row {
+    padding-bottom: 0;
+}
+
+#requirements .row {
+    padding-top: 0px;
+}
+
+#logo img {
+    display: block;
+    max-width: 8rem;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+#form iframe {
+    display: block;
+    width: 640px;
+    height: 1495px;
+    overflow-y: hidden;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+

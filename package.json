@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "node tools/check.js",
-    "deploy": "node tools/deploy.js",
+    "deploy": "npm run build && node tools/deploy.js",
     "dev": "hugo server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run _build_css && npm run _build_js && node tools/flush.js",
+    "_build_css": "cleancss ./src/styles.css -o ./static/css/styles.min.css",
+    "_build_js": "uglifyjs ./src/script.js -o ./static/js/script.min.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,9 @@
     "log": "^1.4.0",
     "moment": "^2.13.0",
     "prompt": "^1.0.0",
-    "shelljs": "^0.7.0"
-  }
+    "shelljs": "^0.7.0",
+    "clean-css": "^3.4.18",
+    "uglify-js": "^2.6.2"
+  },
+  "dependencies": {}
 }
