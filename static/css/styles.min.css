@@ -129,7 +129,25 @@ h3 {
     margin: 10px auto 0 auto;
 }
 
+/* Theme li subtitles */ 
+ul {
+    list-style: none;
+}
+li {
+    line-height: 1.3;
+}
+#theme li span {
+    font-size: 1.2rem;
+}
+#theme li span:after {
+    font-size: 2.3rem;
+    content: '\00a0\0007B\00a0'; 
+}
+
 /* Emphasised text, Overview */
+#overview .row {
+    padding-bottom: 0;
+}
 .leader {
     margin-top: 1rem;
     font-size: 2rem;
