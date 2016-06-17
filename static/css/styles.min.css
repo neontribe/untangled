@@ -114,6 +114,12 @@ h3 {
     display: none;
 }
 
+.scrolled .titles {
+    position: static;
+    transform: none;
+    padding: 0;
+}
+
 .scrolled h1 {
     font-size: 3rem;
 }
@@ -187,9 +193,17 @@ li {
 }
 
 /* Individual section styles */
-#theme, #form {
+#theme, #form, #logo {
     color: #fff;
     background-color: #FC7138;
+}
+
+#logo img {
+    display: block;
+    max-width: 8rem;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
 }
 
 
