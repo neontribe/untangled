@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anthony-neontribe/untangled.git"
+    "url": "git+https://github.com/neontribe/untangled.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anthony-neontribe/untangled/issues"
+    "url": "https://github.com/neontribe/untangled/issues"
   },
-  "homepage": "https://github.com/anthony-neontribe/untangled#readme",
+  "homepage": "https://github.com/neontribe/untangled#readme",
   "devDependencies": {
     "colors": "^1.1.2",
     "log": "^1.4.0",
