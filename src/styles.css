@@ -238,3 +238,7 @@ li {
     }
 }
 
+a:visited {
+    color: #6A1EDB;
+}
+
