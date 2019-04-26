@@ -1,34 +1,23 @@
 {
   "name": "untangled",
-  "version": "0.0.1",
-  "description": "Untangled 2016",
+  "version": "1.0.0",
+  "description": "untangled website",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node tools/check.js",
-    "deploy": "npm run build && node tools/deploy.js",
     "dev": "hugo server",
-    "build": "npm run _build_css && npm run _build_js && node tools/flush.js",
-    "_build_css": "cleancss ./src/styles.css -o ./static/css/styles.min.css",
-    "_build_js": "uglifyjs ./src/script.js -o ./static/js/script.min.js"
+    "build": "hugo"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neontribe/untangled.git"
+    "url": "git+https://github.com/edpe/untangled-website.git"
   },
-  "author": "",
+  "author": "ed perkins",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neontribe/untangled/issues"
+    "url": "https://github.com/edpe/untangled-website/issues"
   },
-  "homepage": "https://github.com/neontribe/untangled#readme",
-  "devDependencies": {
-    "colors": "^1.1.2",
-    "log": "^1.4.0",
-    "moment": "^2.13.0",
-    "prompt": "^1.0.0",
-    "shelljs": "^0.7.0",
-    "clean-css": "^3.4.18",
-    "uglify-js": "^2.6.2"
-  },
-  "dependencies": {}
+  "homepage": "https://github.com/edpe/untangled-website#readme",
+  "dependencies": {
+    "heroku": "^7.22.10"
+  }
 }
