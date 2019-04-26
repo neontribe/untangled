@@ -15,9 +15,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edpe/untangled-website/issues"
-  },
-  "homepage": "https://github.com/edpe/untangled-website#readme",
-  "dependencies": {
-    "heroku": "^7.22.10"
   }
 }
