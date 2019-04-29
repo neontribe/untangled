@@ -1,0 +1,24 @@
+.title {
+  font-size: 2.3rem;
+  line-height: 1.1;
+  font-family: $font-family-base;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #9013FE;
+  @include media-breakpoint-up(md) {
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+  }
+}
+.title-summary {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-family: $font-family-base;
+  letter-spacing: -0.2px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  @include media-breakpoint-up(md) {
+    font-size: 1.4rem;
+  }
+}
