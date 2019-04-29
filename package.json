@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "hugo server",
-    "build": "hugo"
+    "build": "hugo -b https://neontribe.github.io/untangled/",
+    "predeploy": "hugo -b https://neontribe.github.io/untangled/",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edpe/untangled-website/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
