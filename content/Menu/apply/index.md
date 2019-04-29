@@ -6,4 +6,6 @@ weight: 4
 
 ### Apply
 
-Click here for the <a href="javascript:void( window.open( 'https://form.jotformeu.com/91055564817361', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> Untangled Application Form </a>
+Use the form below to apply don't forget to click the 'Submit' button when you're done.
+
+{{< app >}}
