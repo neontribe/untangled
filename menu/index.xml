@@ -53,7 +53,8 @@ What do I need to bring? You can bring your own laptop if you want to, but we ha
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
       <guid>https://neontribe.github.io/untangled/menu/apply/</guid>
-      <description>Apply Click here for the Untangled Application Form</description>
+      <description>Apply Use the form below to apply don&amp;rsquo;t forget to click the &amp;lsquo;Submit&amp;rsquo; button when you&amp;rsquo;re done.
+ var ifr = document.getElementById(&#34;JotFormIFrame-91055564817361&#34;); if(window.location.href &amp;&amp; window.location.href.indexOf(&#34;?&#34;)  -1) { var get = window.location.href.substr(window.location.href.indexOf(&#34;?&#34;) + 1); if(ifr &amp;&amp; get.length  0) { var src = ifr.src; src = src.indexOf(&#34;?&#34;)  -1 ? src + &#34;&amp;&#34; + get : src + &#34;?&#34; + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { if (typeof e.</description>
     </item>
     
   </channel>
