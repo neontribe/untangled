@@ -3,23 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/info/creative-coding.js/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/info/frequently-asked-questions/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/info/apply/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/info/</loc>
+    <loc>/menu/about/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/menu/</loc>
+    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/menu/creative-coding/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/menu/frequently-asked-questions/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/menu/apply/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
   </url>
   
   <url>
