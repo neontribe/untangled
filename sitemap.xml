@@ -3,37 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/untangled/info/creative-coding.js/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/untangled/info/frequently-asked-questions/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/untangled/info/apply/</loc>
-    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/untangled/info/</loc>
+    <loc>/menu/about/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/untangled/</loc>
+    <loc>/menu/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url>
   
   <url>
-    <loc>/untangled/categories/</loc>
+    <loc>/menu/creative-coding/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/menu/frequently-asked-questions/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/menu/apply/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/untangled/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
