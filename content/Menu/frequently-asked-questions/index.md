@@ -20,13 +20,15 @@ The address is:
 Norwich
 NR3 1JD
 
-Please go to reception at 9am on the 5th August and say you are there for Untangled
+If you are walking up Magdalen Street away from the city centre, it's the second set of double doors to the Epic Building, next to 'Secondhand Land'.
+
+Please go to reception at 9am on the 5th August and say that you are there for Untangled.
 
 <br>
 
 ### What do I need to bring?
 
-You can bring your own laptop if you want to, but we have computers you can work on if you don’t.
+You can bring your own laptop if you want to or feel more comfortable, but we have iMacs you can work on if you don’t.
 
 <br>
 
@@ -38,7 +40,7 @@ You might want to think of some ideas of things you might want to build before y
 <br>
 
 ### What do I do about food?
-Please bring a packed lunch with you.
+Please bring a packed lunch with you. There's a nice big common room to eat your lunch in.
 
 <br>
 
