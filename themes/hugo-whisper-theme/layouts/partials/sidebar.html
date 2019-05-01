@@ -2,6 +2,7 @@
 <div class="docs-menu">
   <h4 class="vh">{{ .Section | humanize }}</h4>
   <ul>
+    <a href="/about">Home</a></a>
     {{ range (where .Site.RegularPages "Section" .Section) sort .Site.RegularPages ".Weight" }}
     <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active {{ end }}">
       <a href="{{ .Permalink }}">{{ .Title }}</a>
