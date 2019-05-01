@@ -14,13 +14,13 @@ pygmentsUseClasses = true
     weight = 1
 
 [[menu.main]]
-    name = "Menu"
-    url = "/menu/"
+    name = "About"
+    url = "/about/"
     weight = 2
 
 [params]
   google_analytics_id=""
-  homepage_button_link = '/menu'
+  homepage_button_link = '/about'
   homepage_button_text = 'Tell me more'
   homepage_intro = 'A week of experimenting, designing and making with code'
   homepage_image = ''
