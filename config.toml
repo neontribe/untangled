@@ -9,7 +9,7 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
 [[menu.main]]
-    name = "Home"
+    name = "home"
     url = "/"
     weight = 1
 

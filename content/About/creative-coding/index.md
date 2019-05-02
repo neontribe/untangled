@@ -6,6 +6,8 @@ weight: 2
 
 ### Creative Coding
 
+We're not just looking for people who are already confident programmers, but some previous experience of writing code will help make sure your week is more enjoyable
+
 We will be using a javascript framework called P5.js which you can use to make games, interactive art, animations, musical instruments, physical models, geolocation tools, maps, generative speech and text, the list goes on and on.
 
 #### What will I be using?

@@ -5864,7 +5864,7 @@ p {
   padding: 0;
   margin: 0; }
   .docs-menu ul li {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     font-weight: 400;
     margin: 0;
