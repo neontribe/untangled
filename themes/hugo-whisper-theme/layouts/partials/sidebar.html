@@ -3,7 +3,11 @@
   <h4 class="vh">{{ .Section | humanize }}</h4>
   <ul>
     <li>
+<<<<<<< HEAD
       <a href="/untangled/about">About</a></a>
+=======
+      <a href="/public/about">About</a></a>
+>>>>>>> bfb303c33d37ba69c151ccd922f1836ef15d7c21
     </li>
     {{ range (where .Site.RegularPages "Section" .Section) sort .Site.RegularPages ".Weight" }}
     <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active {{ end }}">
