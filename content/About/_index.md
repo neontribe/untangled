@@ -10,11 +10,11 @@ weight: 1
 
 #### Are you into coding, technology, designing or making things?
 
-Maybe you've had a go at coding, made a simple website or even made your own game? Maybe you've hacked someone else's website or game apart to make your own?
+HAve you ever made a simple website or even made your own game? Maybe you've hacked someone else's website or game apart to make your own?
 
-Perhaps you've always thought about maing one of those apps on your phone work that use your camera or microphone to make you look funny or your voice sound weird?
+Perhaps you've always thought about maing one of those apps on your phone work that make you look funny or your voice sound weird?
 
-Or have you used computers to make music or animation and would like to take it further by turning your phone into a synthesizer that you play by waving your arms around, or by making an animation where the colours are affected by the weather?
+Or maybe you're into art, music or animation and would like to make your phone into an instrument, or an animation where the colours are affected by the weather?
 
 Or maybe you've sat in an ICT lesson, knowing that you like the subject, but wishing you could do something more fun or creative with it . . .
 
