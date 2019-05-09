@@ -23,18 +23,7 @@ You can bring your own laptop if you want to, but we have computers you can work
 <br>
 <br>
 ##### < How do I get to Untangled? >
-Untangled will take place at [Access Creative College](https://www.accesscreative.ac.uk/locations/norwich-college/) who have kindly let us use their building on Magdalen Street.
-<br>
-<br>
-The address is:
-<br>
-<br>
-<b>Access Creative <br>
-114 Magdalen Street <br>
-Norwich <br>
-NR3 1JD <br></b>
-<br>
-Please go to reception at <b>9am on the 5th August</b> and say you are there for Untangled
+Venue tbc
 <br>
 <br>
 ##### < What do I do about food? >
