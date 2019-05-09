@@ -1,14 +1,18 @@
 ---
-title: ''
+title: 'About'
 date: 2018-11-28T15:14:39+10:00
 weight: 1
 ---
 
-<h3 style="text-align: center;">Free Course / /  13 - 18 Year olds / / 5th - 9th August 2019</p>
+<div class="banner">
+    <h3 style="text-align: center;">Free Course / /  13 - 18 Year olds / / 5th - 9th August 2019</h3>
+</div>
 
 <br/>
 
-#### Are you into coding, technology, designing or making things?
+## About Untangled
+
+##### < Are you into coding, technology, designing or making things? >
 
 HAve you ever made a simple website or even made your own game? Maybe you've hacked someone else's website or game apart to make your own?
 
@@ -20,7 +24,7 @@ Or maybe you've sat in an ICT lesson, knowing that you like the subject, but wis
 
 <br>
 
-#### What is Untangled?
+##### < What is Untangled? >
 
 Untangled is a week of experimenting, designing and making using code. This will be a mix of web technology, games, interactive art and using data gathered from the world around us. If you have a mobile phone, this is the one class where you're definitely encouraged to use it.
 
@@ -28,7 +32,7 @@ The course is run by [Neontribe](https://www.neontribe.co.uk/) and there will be
 
 <br>
 
-#### Who can come?
+##### < Who can come? >
 
 Untangled is for 13 - 18 year olds who enjoy working with technology, and might have thought about working with technology in the future.
 

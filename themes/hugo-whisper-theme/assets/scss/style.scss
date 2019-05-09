@@ -105,7 +105,30 @@ body {
         position: absolute;
     }
 }
+.content > .banner {
+    background-color: $primary;
+    color: white;
+    padding: 30px 5px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
 
+
+.content > .banner > h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.content > h2 {
+    color:$primary;
+    font-weight: 700;
+}
+
+.content > h5 {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
 
 // Display breakpoints for DEV
 // body:after {
