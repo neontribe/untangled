@@ -2,15 +2,14 @@
 title: 'What do I need to know?'
 date: 2019-02-11T19:27:37+10:00
 draft: false
-weight: 3
+weight: 2
 ---
 
 ## What do I need to know?
 
 ##### < How will I know if I have got a place on the course? >
 
-After you fill in our application form, you'll hear from us around the end of June to let you know if you have a place on the course.
-Please don't be offended if you don't get on the course this time - we select the group to get a good range of skills and diversity so that everyone feels valued for who they are and what they can do, and most importantly has the best time that they can.
+After you fill in our application form, you'll hear from us around the end of June to let you know if you have a place on the course. We only have alimited number of places so please wait to hear from us.
 <br>
 <br>
 

@@ -5864,18 +5864,19 @@ p {
   padding: 0;
   margin: 0; }
   .docs-menu ul li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.4;
     font-weight: 400;
     margin: 0;
     padding: 4px 0 4px 0; }
     .docs-menu ul li.active a {
-      color: #a846fe;
-      font-weight: 400; }
+      color: #7601dd;
+      font-weight: 600; }
     .docs-menu ul li a {
       color: #212529; }
       .docs-menu ul li a:hover {
-        color: #9013FE; }
+        color: #7601dd;
+        font-weight: 500; }
 
 .hamburger {
   padding: 10px 0 10px 10px;
@@ -6175,5 +6176,25 @@ body {
 @media all and (min-width: 420px) {
   .top-logo {
     position: absolute; } }
+
+.content > .banner {
+  background-color: #9013FE;
+  color: white;
+  padding: 30px 5px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle; }
+
+.content > .banner > h3 {
+  margin: 0;
+  font-weight: 600; }
+
+.content > h2 {
+  color: #9013FE;
+  font-weight: 700; }
+
+.content > h5 {
+  font-weight: 500;
+  font-size: 1.3rem; }
 
 /*# sourceMappingURL=style.css.map */
