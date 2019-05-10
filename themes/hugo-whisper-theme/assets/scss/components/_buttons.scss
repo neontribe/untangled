@@ -1,15 +1,16 @@
 .button {
   white-space: nowrap;
   display: inline-block;
-  padding: 8px 15px 6px 15px;
+  padding: 8px 20px 6px 20px;
   background: $primary;
   font-weight: normal;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: lighten($primary, 50%);
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
-  border-radius: 3px;
+  border-radius: 40px;
   &:hover {
     color: #fff;
     background-color: darken($primary, 15%);

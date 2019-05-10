@@ -9,8 +9,8 @@
       <a href="{{ .Site.BaseURL }}"><img alt="untangled logo" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
     </div>
     <div class="top-logo">
-      <a href="/untangled/">
-        <img class="untangledlogo" src="/untangled/images/untangled.png" alt="untangled logo" />
+      <a href="{{ .Site.BaseURL }}">
+        <img class="untangledlogo" src="{{ .Site.BaseURL }}/images/untangled.png" alt="untangled logo" />
       </a>
     </div>
     {{ partial "main-menu.html" . }}

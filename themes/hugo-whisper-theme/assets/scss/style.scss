@@ -94,7 +94,7 @@ body {
 	overflow: hidden;
 }
 .untangledlogo {
-    width: 250px;
+    width: 300px;
 }
 .top-logo {
     width: 100%;
@@ -143,9 +143,10 @@ body {
 	z-index: -1;
 }
 
-.content h3 {
-  background-color: #060606;
-  color: #fff;
+.homepagetext {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 // Display breakpoints for DEV
