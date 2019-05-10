@@ -3,7 +3,10 @@ title: 'About'
 date: 2018-11-28T15:14:39+10:00
 ---
 
-
-### Want to spend your summer experimenting, designing and making things with code?
-
-<!-- {{< hp5 "https://editor.p5js.org/edpe/embed/C3hRdzT9F" >}} -->
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="homepagetext">
+ Want to spend your summer experimenting, designing and making things with code?
+</div>
