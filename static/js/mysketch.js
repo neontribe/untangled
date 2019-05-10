@@ -32,25 +32,25 @@ function polygon(x, y, radius, npoints) {
   endShape(CLOSE);
 }
 
-function synthSelector(color) {
-  switch(color) {
-    case "#fb37f1":
-    return pinkSynth
-    break;
-    case "#54fcfd":
-    return blueSynth
-    break;
-    case "#9013fe":
-    return purpleSynth
-    break;
-    case "#48e6b6":
-    return turquoiseSynth
-    break;
-    case "#fdf958":
-    return yellowSynth
-    break;
-  }
-}
+// function synthSelector(color) {
+//   switch(color) {
+//     case "#fb37f1":
+//     return pinkSynth
+//     break;
+//     case "#54fcfd":
+//     return blueSynth
+//     break;
+//     case "#9013fe":
+//     return purpleSynth
+//     break;
+//     case "#48e6b6":
+//     return turquoiseSynth
+//     break;
+//     case "#fdf958":
+//     return yellowSynth
+//     break;
+//   }
+// }
 
 class HexAgent {
   constructor(posX, posY, fillColor) {
@@ -130,6 +130,7 @@ class HexAgent {
 }
 
 function setup() {
+  startAudio();
   var myCanvas = createCanvas(windowWidth, windowHeight);
   myCanvas.class('backgroundsketch');
   document.body.prepend(myCanvas.canvas);
