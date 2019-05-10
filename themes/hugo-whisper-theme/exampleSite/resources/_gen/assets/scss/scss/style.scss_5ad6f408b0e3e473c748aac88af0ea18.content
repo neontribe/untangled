@@ -6010,6 +6010,8 @@ p {
     font-family: "Roboto", Arial, sans-serif, -apple-system;
     margin-bottom: 20px; }
   .content h3 {
+    background-color: black;
+    color: #fff;
     font-size: 1.6rem;
     line-height: 1.4;
     font-weight: 400;
