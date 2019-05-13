@@ -1,25 +1,14 @@
-let angle = 0.0;
-var hexagons = [];
-var colours = ["#fb37f1", "#54fcfd", "#9013fe", "#48e6b6", "#fdf958"];
-var notes = ["C1", "E2", "G2", "C3", "E3", "G4", "C6", "E6", "G6", "C7",]
-let numberOfHexagons = 15;
+let angleL = 0.0;
+var hexagonsL = [];
+var coloursL = ["#FFF0FE", "#EBFFFF", "#F5EAFF", "#E9FFF4", "#FFFEE7"];
+var notesL = ["C3", "D3", "E4", "F4", "G5", "A5", "B6", "C6", "D7", "A7",]
+let numberOfHexagonsL = 15;
 
-var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-
-// var purpleSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var pinkSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var yellowSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var blueSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var turquoiseSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-
-function startAudio() {
-  Tone.context.resume()
-}
 
 function polygon(x, y, radius, npoints) {
-  let angle = TWO_PI / npoints;
+  let angleL = TWO_PI / npoints;
   beginShape();
-  for (let a = 0; a < TWO_PI; a += angle) {
+  for (let a = 0; a < TWO_PI; a += angleL) {
     let sx = x + cos(a) * radius;
     let sy = y + sin(a) * radius;
     vertex(sx, sy);
@@ -27,27 +16,7 @@ function polygon(x, y, radius, npoints) {
   endShape(CLOSE);
 }
 
-// function synthSelector(color) {
-//   switch(color) {
-//     case "#fb37f1":
-//     return pinkSynth
-//     break;
-//     case "#54fcfd":
-//     return blueSynth
-//     break;
-//     case "#9013fe":
-//     return purpleSynth
-//     break;
-//     case "#48e6b6":
-//     return turquoiseSynth
-//     break;
-//     case "#fdf958":
-//     return yellowSynth
-//     break;
-//   }
-// }
-
-class HexAgent {
+class HexAgentL {
   constructor(posX, posY, fillColor) {
     this.mousePos = createVector(mouseX, mouseY)
     this.size = random(windowWidth / 15 ) + 15;
@@ -58,9 +27,6 @@ class HexAgent {
     this.relationshipLength = random(25000) + 10000; // milliseconds
     this.feelings = ["attracted", "repulsed"];
     this.currentFeeling = this.feelings[0];
-    this.note = notes[Math.floor(map(this.size, 15, 85, 9, 0))]
-    this.synth = polySynth;
-    // this.synth = synthSelector(this.fillColor);
   }
 
   display() {
@@ -77,11 +43,9 @@ class HexAgent {
   checkBoundaries() {
     if (this.pos.x > windowWidth - this.size|| this.pos.x < 0 + this.size) {
       this.vel.x = this.vel.x * -1;
-        this.synth.triggerAttackRelease(this.note, '8n')
     }
     if (this.pos.y > windowHeight - this.size / 1.25 || this.pos.y < 0 + this.size / 1.25) {
       this.vel.y = this.vel.y * -1;
-        this.synth.triggerAttackRelease(this.note, '8n')
     }
   }
 
@@ -125,20 +89,13 @@ class HexAgent {
 }
 
 function setup() {
-  polySynth.set("volume", -6)
   var myCanvas = createCanvas(windowWidth, windowHeight);
   myCanvas.class('backgroundsketch');
   document.body.prepend(myCanvas.canvas);
 
-  startSoundButton = new Clickable();
-  startSoundButton.locate(windowWidth * 0.5, windowHeight * 0.8);
-  startSoundButton.onPress = function() {
-    startAudio();
-  }
-
-  for (var i = 0; i < numberOfHexagons; i++) {
-    hexagons.push(
-      new HexAgent(random((windowWidth * 0.1), (windowWidth * 0.9)), random((windowHeight * 0.1),(windowHeight * 0.9)), random(colours))
+  for (var i = 0; i < numberOfHexagonsL; i++) {
+    hexagonsL.push(
+      new HexAgentL(random((windowWidth * 0.1), (windowWidth * 0.9)), random((windowHeight * 0.1),(windowHeight * 0.9)), random(coloursL))
     );
   }
 
@@ -146,11 +103,11 @@ function setup() {
 
 function draw() {
   background(255);
-  for (var i = 0; i < numberOfHexagons; i++) {
-    hexagons[i].attracted(hexagons[hexagons.length - 1 - i], 8);
-    hexagons[i].update();
-    hexagons[i].display();
-    hexagons[i].checkBoundaries();
-    hexagons[i].checkRelationshipStatus();
+  for (var i = 0; i < numberOfHexagonsL; i++) {
+    hexagonsL[i].attracted(hexagonsL[hexagonsL.length - 1 - i], 8);
+    hexagonsL[i].update();
+    hexagonsL[i].display();
+    hexagonsL[i].checkBoundaries();
+    hexagonsL[i].checkRelationshipStatus();
   }
 }

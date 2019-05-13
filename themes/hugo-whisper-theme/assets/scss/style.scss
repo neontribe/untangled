@@ -83,6 +83,10 @@ body {
     position: relative;
 }
 
+.title-box {
+  padding-top: 18%;
+}
+
 .vh {
     position: absolute !important;
 	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -94,7 +98,8 @@ body {
 	overflow: hidden;
 }
 .untangledlogo {
-    width: 300px;
+    width: 40%;
+    padding-top: 20px;
 }
 .top-logo {
     width: 100%;
