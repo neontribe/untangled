@@ -1,7 +1,7 @@
 let angle = 0.0;
 var hexagons = [];
 var colours = ["#fb37f1", "#54fcfd", "#9013fe", "#48e6b6", "#fdf958"];
-var notes = ["C4", "D4", "E4", "G4", "C5", "E5", "G6", "C6", "D6", "A6",]
+var notes = ["C3", "D3", "E4", "F4", "G5", "A5", "B6", "C6", "D7", "A7",]
 let numberOfHexagons = 15;
 
 var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
@@ -15,11 +15,6 @@ var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
 function startAudio() {
   Tone.context.resume()
 }
-
-function preload() {
-  startAudio();
-}
-
 
 function polygon(x, y, radius, npoints) {
   let angle = TWO_PI / npoints;
@@ -130,10 +125,16 @@ class HexAgent {
 }
 
 function setup() {
-  startAudio();
   var myCanvas = createCanvas(windowWidth, windowHeight);
   myCanvas.class('backgroundsketch');
   document.body.prepend(myCanvas.canvas);
+
+  startSoundButton = new Clickable();
+  startSoundButton.locate(windowWidth * 0.5, windowHeight * 0.8);
+  startSoundButton.onPress = function() {
+    startAudio();
+  }
+
   for (var i = 0; i < numberOfHexagons; i++) {
     hexagons.push(
       new HexAgent(random((windowWidth * 0.1), (windowWidth * 0.9)), random((windowHeight * 0.1),(windowHeight * 0.9)), random(colours))
@@ -150,6 +151,5 @@ function draw() {
     hexagons[i].display();
     hexagons[i].checkBoundaries();
     hexagons[i].checkRelationshipStatus();
-    // hexagons[i].attracted(this.mousePos, 50); // need to send in object with this.mousePos as pos
   }
 }
