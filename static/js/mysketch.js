@@ -1,7 +1,7 @@
 let angle = 0.0;
 var hexagons = [];
-var colours = ["#fb37f1", "#54fcfd", "#9013fe", "#48e6b6", "#fdf958"];
-var notes = ["C1", "E2", "G2", "C3", "E3", "G4", "C6", "E6", "G6", "C7",]
+var colours = ['#fb37f1', '#54fcfd', '#9013fe', '#48e6b6', '#fdf958'];
+var notes = ['C2', 'E2', 'G3', 'C3', 'E4', 'G4', 'C5', 'E5', 'G6', 'C6'];
 let numberOfHexagons = 15;
 
 var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
@@ -13,7 +13,7 @@ var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
 // var turquoiseSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
 
 function startAudio() {
-  Tone.context.resume()
+  Tone.context.resume();
 }
 
 function polygon(x, y, radius, npoints) {
@@ -49,16 +49,16 @@ function polygon(x, y, radius, npoints) {
 
 class HexAgent {
   constructor(posX, posY, fillColor) {
-    this.mousePos = createVector(mouseX, mouseY)
-    this.size = random(windowWidth / 15 ) + 15;
+    this.mousePos = createVector(mouseX, mouseY);
+    this.size = random(windowWidth / 15) + 15;
     this.fillColor = fillColor;
     this.pos = createVector(posX, posY);
     this.vel = p5.Vector.random2D();
     this.acc = createVector();
     this.relationshipLength = random(25000) + 10000; // milliseconds
-    this.feelings = ["attracted", "repulsed"];
+    this.feelings = ['attracted', 'repulsed'];
     this.currentFeeling = this.feelings[0];
-    this.note = notes[Math.floor(map(this.size, 15, 85, 9, 0))]
+    this.note = notes[Math.floor(map(this.size, 15, ((windowWidth / 15) + 15), 9, 0))];
     this.synth = polySynth;
     // this.synth = synthSelector(this.fillColor);
   }
@@ -77,11 +77,11 @@ class HexAgent {
   checkBoundaries() {
     if (this.pos.x >= windowWidth - this.size || this.pos.x <= 0 + this.size) {
       this.vel.x = this.vel.x * -1;
-        this.synth.triggerAttackRelease(this.note, '8n')
+      this.synth.triggerAttackRelease(this.note, '8n');
     }
     if (this.pos.y >= windowHeight - this.size || this.pos.y <= 0 + this.size) {
       this.vel.y = this.vel.y * -1;
-        this.synth.triggerAttackRelease(this.note, '8n')
+      this.synth.triggerAttackRelease(this.note, '8n');
     }
   }
 
@@ -92,29 +92,28 @@ class HexAgent {
     let strength = gravity / distSquared;
     force.setMag(strength);
     switch (this.currentFeeling) {
-      case "attracted":
+      case 'attracted':
         force = force;
         break;
-      case "repulsed":
+      case 'repulsed':
         force.mult(-1);
         break;
     }
     this.acc = force;
-
   }
 
-  changeState(){
+  changeState() {
     this.acc = createVector(0, 0);
     this.vel = createVector(0.1, 0.1);
     switch (this.currentFeeling) {
-      case "attracted":
+      case 'attracted':
         this.currentFeeling = this.feelings[1];
         break;
-      case "repulsed":
+      case 'repulsed':
         this.currentFeeling = this.feelings[0];
         break;
     }
-  };
+  }
 
   checkRelationshipStatus() {
     if (millis() > this.relationshipLength) {
@@ -125,27 +124,25 @@ class HexAgent {
 }
 
 function setup() {
-  polySynth.set("volume", -6)
+  polySynth.set('volume', -6);
   var myCanvas = createCanvas(windowWidth, windowHeight);
   myCanvas.class('backgroundsketch');
   document.body.prepend(myCanvas.canvas);
-
-  startSoundButton = new Clickable();
-  startSoundButton.locate(windowWidth * 0.5, windowHeight * 0.8);
-  startSoundButton.onPress = function() {
-    startAudio();
-  }
-
+  startAudio();
   for (var i = 0; i < numberOfHexagons; i++) {
     hexagons.push(
-      new HexAgent(random((windowWidth * 0.1), (windowWidth * 0.9)), random((windowHeight * 0.1),(windowHeight * 0.9)), random(colours))
+      new HexAgent(
+        random(windowWidth * 0.1, windowWidth * 0.9),
+        random(windowHeight * 0.1, windowHeight * 0.9),
+        random(colours)
+      )
     );
   }
-
 }
 
 function draw() {
   background(255);
+
   for (var i = 0; i < numberOfHexagons; i++) {
     hexagons[i].attracted(hexagons[hexagons.length - 1 - i], 8);
     hexagons[i].update();
