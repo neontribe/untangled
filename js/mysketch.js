@@ -79,7 +79,7 @@ class HexAgent {
       this.vel.x = this.vel.x * -1;
       this.synth.triggerAttackRelease(this.note, '8n');
     }
-    if (this.pos.y >= windowHeight - this.size || this.pos.y <= 0 + this.size) {
+    if (this.pos.y >= windowHeight - this.size * 0.85 || this.pos.y <= 0 + this.size * 0.85) {
       this.vel.y = this.vel.y * -1;
       this.synth.triggerAttackRelease(this.note, '8n');
     }
