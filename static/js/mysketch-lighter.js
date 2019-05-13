@@ -19,7 +19,7 @@ function polygon(x, y, radius, npoints) {
 class HexAgentL {
   constructor(posX, posY, fillColor) {
     this.mousePos = createVector(mouseX, mouseY)
-    this.size = random(70) + 15;
+    this.size = random(windowWidth / 15 ) + 15;
     this.fillColor = fillColor;
     this.pos = createVector(posX, posY);
     this.vel = p5.Vector.random2D();
