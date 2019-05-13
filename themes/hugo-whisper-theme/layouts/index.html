@@ -21,8 +21,7 @@
 <div class="strip">
   <div class="pt-4 pb-16">
     <div class="title-box">
-      <div class="row">
-        <div class="col-12">
+
           <h1 class="title vh">{{ .Title | default .Site.Title }}</h1>
           <div class="content">
             {{ if .Content }}
@@ -36,8 +35,7 @@
           </a>
         </div>
       </div>
-    </div>
-  </div>
+
 </div>
 
 {{ if .Site.Params.homepage_image }}
