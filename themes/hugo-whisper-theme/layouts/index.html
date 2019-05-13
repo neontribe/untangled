@@ -20,28 +20,21 @@
 <script src="{{ .Site.BaseURL }}/js/mysketch.js" type="text/javascript"></script>
 <div class="strip">
   <div class="pt-4 pb-16">
-    <div class="row">
-      <div class="col-12">
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h1 class="title vh">{{ .Title | default .Site.Title }}</h1>
-        <div class="content">
-          {{ if .Content }}
-          {{ .Content }}
-          {{ else }}
-          <p>{{ .Site.Params.homepage_intro }}</p>
-          {{ end }}
+    <div class="title-box">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="title vh">{{ .Title | default .Site.Title }}</h1>
+          <div class="content">
+            {{ if .Content }}
+            {{ .Content }}
+            {{ else }}
+            <p>{{ .Site.Params.homepage_intro }}</p>
+            {{ end }}
+          </div>
+          <a class="button button-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
+            {{ .Site.Params.homepage_button_text }}
+          </a>
         </div>
-        <a class="button button-primary mb-2" href="{{ .Site.Params.homepage_button_link | relURL }}">
-          {{ .Site.Params.homepage_button_text }}
-        </a>
       </div>
     </div>
   </div>
