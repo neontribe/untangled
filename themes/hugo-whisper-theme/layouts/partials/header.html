@@ -1,8 +1,8 @@
 
-<script src="{{ .Site.BaseURL }}/js/p5.min.js" type="text/javascript"></script>
-<script src="{{ .Site.BaseURL }}/js/p5.dom.min.js" type="text/javascript"></script>
-<script src="{{ .Site.BaseURL }}/js/p5.clickable.min.js" type="text/javascript"></script>
-<script src="{{ .Site.BaseURL }}/js/Tone.js" type="text/javascript"></script>
+<script src="{{ .Site.BaseURL }}js/p5.min.js" type="text/javascript"></script>
+<script src="{{ .Site.BaseURL }}js/p5.dom.min.js" type="text/javascript"></script>
+<script src="{{ .Site.BaseURL }}js/p5.clickable.min.js" type="text/javascript"></script>
+<script src="{{ .Site.BaseURL }}js/Tone.js" type="text/javascript"></script>
 
 {{if .IsHome }}
 <div class='header'>
@@ -20,7 +20,7 @@
     </div>
     <div class="top-logo">
       <a href="{{ .Site.BaseURL }}">
-        <img class="untangledlogo" src="{{ .Site.BaseURL }}/images/untangled.png" alt="untangled logo" />
+        <img class="untangledlogo" src="{{ .Site.BaseURL }}images/untangled.png" alt="untangled logo" />
       </a>
     </div>
     {{ partial "main-menu.html" . }}
