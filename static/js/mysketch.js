@@ -75,11 +75,11 @@ class HexAgent {
   }
 
   checkBoundaries() {
-    if (this.pos.x > windowWidth - this.size|| this.pos.x < 0 + this.size) {
+    if (this.pos.x >= windowWidth - this.size || this.pos.x <= 0 + this.size) {
       this.vel.x = this.vel.x * -1;
         this.synth.triggerAttackRelease(this.note, '8n')
     }
-    if (this.pos.y > windowHeight - this.size / 1.25 || this.pos.y < 0 + this.size / 1.25) {
+    if (this.pos.y >= windowHeight - this.size || this.pos.y <= 0 + this.size) {
       this.vel.y = this.vel.y * -1;
         this.synth.triggerAttackRelease(this.note, '8n')
     }
