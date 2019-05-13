@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Untangled</title>
-    <link>https://neontribe.github.io/untangled/</link>
+    <link>/</link>
     <description>Recent content in About on Untangled</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
     
-	<atom:link href="https://neontribe.github.io/untangled/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What do I need to know?</title>
-      <link>https://neontribe.github.io/untangled/about/what-do-i-need-to-know/</link>
+      <link>/about/what-do-i-need-to-know/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>https://neontribe.github.io/untangled/about/what-do-i-need-to-know/</guid>
+      <guid>/about/what-do-i-need-to-know/</guid>
       <description>What do I need to know? &amp;lt; How will I know if I have got a place on the course? &amp;gt; After you fill in our application form, you&amp;rsquo;ll hear from us around the end of June to let you know if you have a place on the course. We only have alimited number of places so please wait to hear from us. &amp;lt; If I get a place, what will I be doing?</description>
     </item>
     
     <item>
       <title>How to apply</title>
-      <link>https://neontribe.github.io/untangled/about/how-to-apply/</link>
+      <link>/about/how-to-apply/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>https://neontribe.github.io/untangled/about/how-to-apply/</guid>
+      <guid>/about/how-to-apply/</guid>
       <description>How to apply Use the form below to apply don&amp;rsquo;t forget to click the &amp;lsquo;Submit&amp;rsquo; button when you&amp;rsquo;re done.
  var ifr = document.getElementById(&#34;JotFormIFrame-91055564817361&#34;); if(window.location.href &amp;&amp; window.location.href.indexOf(&#34;?&#34;)  -1) { var get = window.location.href.substr(window.location.href.indexOf(&#34;?&#34;) + 1); if(ifr &amp;&amp; get.length  0) { var src = ifr.src; src = src.indexOf(&#34;?&#34;)  -1 ? src + &#34;&amp;&#34; + get : src + &#34;?&#34; + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { if (typeof e.</description>
     </item>
     
     <item>
       <title>Creative Coding</title>
-      <link>https://neontribe.github.io/untangled/about/creative-coding/</link>
+      <link>/about/creative-coding/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>https://neontribe.github.io/untangled/about/creative-coding/</guid>
+      <guid>/about/creative-coding/</guid>
       <description>Creative Coding We&amp;rsquo;re not just looking for people who are already confident programmers, but some previous experience of writing code will help make sure your week is more enjoyable
 We will be using a javascript framework called P5.js which you can use to make games, interactive art, animations, musical instruments, physical models, geolocation tools, maps, generative speech and text, the list goes on and on.
 &amp;lt; What will I be using?</description>
