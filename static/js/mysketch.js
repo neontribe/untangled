@@ -1,7 +1,7 @@
 let angle = 0.0;
 var hexagons = [];
 var colours = ["#fb37f1", "#54fcfd", "#9013fe", "#48e6b6", "#fdf958"];
-var notes = ["C3", "D3", "E4", "F4", "G5", "A5", "B6", "C6", "D7", "A7",]
+var notes = ["C1", "E2", "G2", "C3", "E3", "G4", "C6", "E6", "G6", "C7",]
 let numberOfHexagons = 15;
 
 var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
@@ -125,6 +125,7 @@ class HexAgent {
 }
 
 function setup() {
+  polySynth.set("volume", -6)
   var myCanvas = createCanvas(windowWidth, windowHeight);
   myCanvas.class('backgroundsketch');
   document.body.prepend(myCanvas.canvas);
