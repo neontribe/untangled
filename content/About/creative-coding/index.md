@@ -12,7 +12,7 @@ We will be using a javascript framework called P5.js which you can use to make g
 
 ##### < What will I be using? >
 
-We'll be using a Javascript framework called p5.js. It's a layer that sitys on top of standard Javascript and lets you work with animation, video, sound etc.
+We'll be using a Javascript framework called p5.js. It's a layer that sits on top of standard Javascript and lets you work with animation, video, sound etc.
 
 You can read more about p5.js [here](https://p5js.org/) and have a play around with some of the [examples](https://p5js.org/examples/)
 
