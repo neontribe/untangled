@@ -1,6 +1,6 @@
-baseURL = "www.example.com"
+baseURL = "www.untangled.org.uk"
 languageCode = "en-us"
-title = "Hugo Whisper Theme"
+title = "Untangled"
 themesDir = "../.."
 theme = "hugo-whisper-theme"
 
@@ -22,20 +22,20 @@ pygmentsUseClasses = true
   google_analytics_id=""
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
+  homepage_intro = 'Untangled is a week of experimenting, designing and making with code for 13-18 year olds from 5th - 9th August 2019.'
   homepage_image = '/images/terminal.gif'
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_description = "Untangled is a week of experimenting, designing and making with code for 13-18 year olds from 5th - 9th August 2019."
     meta_og_title = "Hugo Whisper Theme"
     meta_og_type = "website"
     meta_og_url = "https://hugo-whisper.netlify.com"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
-    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_description = "Untangled is a week of experimenting, designing and making with code for 13-18 year olds from 5th - 9th August 2019."
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@neontribe"
+    meta_twitter_creator = "@neontribe
 
   [params.logo]
-      mobile = "themes/hugo-whisper-theme/images/neontribe-logo-mobile.svg"
-      standard  = "themes/hugo-whisper-theme/images/neontribe-logo.svg"
+      mobile = "themes/hugo-whisper-theme/static/images/neontribe-logo.svg"
+      standard  = "themes/hugo-whisper-theme/static/images/neontribe-logo.svg"

@@ -37,3 +37,7 @@ The course is run by [Neontribe](https://www.neontribe.co.uk/) and there will be
 Untangled is for 13 - 18 year olds who enjoy working with technology, and might have thought about working with technology in the future.
 
 The best thing about it is that it's totally free! At Neontribe, we want to help the next generation of programmers to develop and learn and giving back is part of our culture.
+
+#### < How do I get in touch >
+
+Please apply using the application form. Any questions please email us: <b>untangled@neontribe.co.uk</b>  <br>

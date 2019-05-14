@@ -8,4 +8,6 @@ weight: 3
 
 Use the form below to apply don't forget to click the 'Submit' button when you're done.
 
+Any questions please email us: <b>untangled@neontribe.co.uk</b>  <br>
+
 {{< app >}}
