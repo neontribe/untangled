@@ -1,7 +1,7 @@
 let angle = 0.0;
 var hexagons = [];
 var colours = ['#fb37f1', '#54fcfd', '#9013fe', '#48e6b6', '#fdf958'];
-var notes = ['C2', 'E2', 'G3', 'C3', 'E4', 'G4', 'C5', 'E5', 'G6', 'C6'];
+var notes = ['C2', 'G2', 'C3', 'D3', 'E3', 'G3', 'C5', 'F5', 'A5', 'C6'];
 let numberOfHexagons = 15;
 
 var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
@@ -58,7 +58,8 @@ class HexAgent {
     this.relationshipLength = random(25000) + 10000; // milliseconds
     this.feelings = ['attracted', 'repulsed'];
     this.currentFeeling = this.feelings[0];
-    this.note = notes[Math.floor(map(this.size, 15, ((windowWidth / 15) + 15), 9, 0))];
+    this.note =
+      notes[Math.floor(map(this.size, 15, windowWidth / 15 + 15, 9, 0))];
     this.synth = polySynth;
     // this.synth = synthSelector(this.fillColor);
   }
@@ -79,7 +80,10 @@ class HexAgent {
       this.vel.x = this.vel.x * -1;
       this.synth.triggerAttackRelease(this.note, '8n');
     }
-    if (this.pos.y >= windowHeight - this.size * 0.85 || this.pos.y <= 0 + this.size * 0.85) {
+    if (
+      this.pos.y >= windowHeight - this.size * 0.85 ||
+      this.pos.y <= 0 + this.size * 0.85
+    ) {
       this.vel.y = this.vel.y * -1;
       this.synth.triggerAttackRelease(this.note, '8n');
     }
@@ -124,7 +128,14 @@ class HexAgent {
 }
 
 function setup() {
+  polySynth.set('envelope', {
+    attack: 0.1,
+    decay: 0.8,
+    sustain: 0.6,
+    release: 4
+  });
   polySynth.set('volume', -6);
+
   var myCanvas = createCanvas(windowWidth, windowHeight);
   myCanvas.class('backgroundsketch');
   document.body.prepend(myCanvas.canvas);

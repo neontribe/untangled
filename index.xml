@@ -27,7 +27,7 @@
       
       <guid>/about/how-to-apply/</guid>
       <description>How to apply Use the form below to apply don&amp;rsquo;t forget to click the &amp;lsquo;Submit&amp;rsquo; button when you&amp;rsquo;re done.
- var ifr = document.getElementById(&#34;JotFormIFrame-91055564817361&#34;); if(window.location.href &amp;&amp; window.location.href.indexOf(&#34;?&#34;)  -1) { var get = window.location.href.substr(window.location.href.indexOf(&#34;?&#34;) + 1); if(ifr &amp;&amp; get.length  0) { var src = ifr.src; src = src.indexOf(&#34;?&#34;)  -1 ? src + &#34;&amp;&#34; + get : src + &#34;?&#34; + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { if (typeof e.</description>
+Any questions please email us: untangled@neontribe.co.uk  var ifr = document.getElementById(&#34;JotFormIFrame-91055564817361&#34;); if(window.location.href &amp;&amp; window.location.href.indexOf(&#34;?&#34;)  -1) { var get = window.location.href.substr(window.location.href.indexOf(&#34;?&#34;) + 1); if(ifr &amp;&amp; get.length  0) { var src = ifr.src; src = src.indexOf(&#34;?&#34;)  -1 ? src + &#34;&amp;&#34; + get : src + &#34;?&#34; + get; ifr.</description>
     </item>
     
     <item>
