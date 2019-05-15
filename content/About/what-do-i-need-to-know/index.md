@@ -23,11 +23,11 @@ You can bring your own laptop if you want to, but we have computers you can work
 <br>
 <br>
 ##### < How do I get to Untangled? >
-Venue tbc
+Venue to be confirmed . . . watch this space
 <br>
 <br>
 ##### < What do I do about food? >
-Please bring a packed lunch with you. There's a nice big common room for you to eat in, but everyone has to stay in the building for the day.
+Please bring a packed lunch with you.
 <br>
 <br>
 ##### < How many other people will be there? >
