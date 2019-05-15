@@ -2,7 +2,7 @@ let angle = 0.0;
 var hexagons = [];
 var colours = ['#fb37f1', '#54fcfd', '#9013fe', '#48e6b6', '#fdf958'];
 var notes = ['C2', 'G2', 'C3', 'D3', 'E3', 'G3', 'C5', 'F5', 'A5', 'C6'];
-let numberOfHexagons = 15;
+let numberOfHexagons
 
 var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
 
@@ -128,6 +128,7 @@ class HexAgent {
 }
 
 function setup() {
+  numberOfHexagons = map(windowWidth, 375, 1920, 4, 15);
   polySynth.set('envelope', {
     attack: 0.1,
     decay: 0.8,
