@@ -27,10 +27,10 @@ pygmentsUseClasses = true
 
   [params.homepage_meta_tags]
     meta_description = "Untangled is a week of experimenting, designing and making with code for 13-18 year olds from 5th - 9th August 2019."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_og_title = "Untangled"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.com"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_url = "https://untangled.org.uk"
+    meta_og_image = "themes/hugo-whisper-theme/static/images/screenshot.png"
     meta_og_description = "Untangled is a week of experimenting, designing and making with code for 13-18 year olds from 5th - 9th August 2019."
     meta_twitter_card = "summary"
     meta_twitter_site = "@neontribe"
