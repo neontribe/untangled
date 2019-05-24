@@ -23,7 +23,10 @@ You can bring your own laptop if you want to, but we have computers you can work
 <br>
 <br>
 ##### < How do I get to Untangled? >
-Venue to be confirmed . . . watch this space
+
+We are very grateful to be at NUA this year in the St Andrews building on St Andrews Street
+
+We'll let successful applicants know more about how to get there nearer the time
 <br>
 <br>
 ##### < What do I do about food? >
