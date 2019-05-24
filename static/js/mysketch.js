@@ -1,3 +1,5 @@
+
+var weather
 let angle = 0.0;
 var hexagons = [];
 var colours = ['#fb37f1', '#54fcfd', '#9013fe', '#48e6b6', '#fdf958'];
@@ -5,12 +7,6 @@ var notes = ['C2', 'G2', 'C3', 'D3', 'E3', 'G3', 'C5', 'F5', 'A5', 'C6'];
 let numberOfHexagons
 
 var polySynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-
-// var purpleSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var pinkSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var yellowSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var blueSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
-// var turquoiseSynth = new Tone.PolySynth(15, Tone.Synth).toMaster();
 
 function startAudio() {
   Tone.context.resume();
@@ -27,26 +23,6 @@ function polygon(x, y, radius, npoints) {
   endShape(CLOSE);
 }
 
-// function synthSelector(color) {
-//   switch(color) {
-//     case "#fb37f1":
-//     return pinkSynth
-//     break;
-//     case "#54fcfd":
-//     return blueSynth
-//     break;
-//     case "#9013fe":
-//     return purpleSynth
-//     break;
-//     case "#48e6b6":
-//     return turquoiseSynth
-//     break;
-//     case "#fdf958":
-//     return yellowSynth
-//     break;
-//   }
-// }
-
 class HexAgent {
   constructor(posX, posY, fillColor) {
     this.mousePos = createVector(mouseX, mouseY);
@@ -61,7 +37,7 @@ class HexAgent {
     this.note =
       notes[Math.floor(map(this.size, 15, windowWidth / 15 + 15, 9, 0))];
     this.synth = polySynth;
-    // this.synth = synthSelector(this.fillColor);
+
   }
 
   display() {
@@ -128,7 +104,7 @@ class HexAgent {
 }
 
 function setup() {
-  numberOfHexagons = map(windowWidth, 375, 1920, 4, 15);
+  numberOfHexagons = map(windowWidth, 375, 1920, 6, 15);
   polySynth.set('envelope', {
     attack: 0.1,
     decay: 0.8,
@@ -141,6 +117,8 @@ function setup() {
   myCanvas.class('backgroundsketch');
   document.body.prepend(myCanvas.canvas);
   startAudio();
+
+  print(weather);
   for (var i = 0; i < numberOfHexagons; i++) {
     hexagons.push(
       new HexAgent(
