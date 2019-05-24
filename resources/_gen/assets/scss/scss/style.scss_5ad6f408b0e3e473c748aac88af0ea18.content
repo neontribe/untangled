@@ -5676,13 +5676,7 @@ p {
             font-weight: 300; } }
 
 .sub-footer {
-  background: #f4f5fb;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-  @media (min-width: 768px) {
-    .sub-footer {
-      padding-top: 10px;
-      padding-bottom: 10px; } }
+  background: #f4f5fb; }
   .sub-footer .sub-footer-inner {
     display: flex;
     flex-direction: column;
@@ -5901,15 +5895,16 @@ p {
 .button {
   white-space: nowrap;
   display: inline-block;
-  padding: 8px 15px 6px 15px;
+  padding: 8px 20px 6px 20px;
   background: #9013FE;
   font-weight: normal;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: white;
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
-  border-radius: 3px; }
+  border-radius: 40px; }
   .button:hover {
     color: #fff;
     background-color: #6801c4;
@@ -6154,6 +6149,9 @@ body {
 .container > * {
   position: relative; }
 
+.title-box {
+  padding-top: 18%; }
+
 .vh {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -6166,7 +6164,8 @@ body {
   overflow: hidden; }
 
 .untangledlogo {
-  width: 250px; }
+  width: 40%;
+  padding-top: 20px; }
 
 .top-logo {
   width: 100%;
@@ -6204,11 +6203,12 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: none;
   z-index: -1; }
 
-.content h3 {
-  background-color: #060606;
-  color: #fff; }
+.homepagetext {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */
