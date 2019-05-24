@@ -1,7 +1,4 @@
-scales = {
-  major: {['C2', 'G2', 'C3', 'F3', 'G3', 'C4', 'E4', 'G4', 'C5', 'D5']},
-  minor: {['C2', 'Eb', 'C3', 'Eb3', 'G3', 'C4', 'Eb4', 'Ab4', 'C5', 'Eb5']}
-}
+
 var weather
 let angle = 0.0;
 var hexagons = [];
@@ -104,12 +101,6 @@ class HexAgent {
       this.changeState();
     }
   }
-}
-
-
-
-function preload() {
-  weather = loadJSON('https://api.openweathermap.org/data/2.5/weather?q=newyork&APPID=af2b9cf608567e0f30745c0bcc877730&units=imperial');
 }
 
 function setup() {
