@@ -23,13 +23,14 @@ You can bring your own laptop if you want to, but we have computers you can work
 <br>
 <br>
 ##### < How do I get to Untangled? >
+
 We are very grateful to be at NUA this year in the St Andrews building on St Andrews Street
 
-We'll let successful applicants know more nearer the time
+We'll let successful applicants know more about how to get there nearer the time
 <br>
 <br>
 ##### < What do I do about food? >
-Please bring a packed lunch with you. There's a nice big common room for you to eat in, but everyone has to stay in the building for the day.
+Please bring a packed lunch with you.
 <br>
 <br>
 ##### < How many other people will be there? >
