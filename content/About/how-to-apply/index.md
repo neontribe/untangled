@@ -10,4 +10,6 @@ Use the form below to apply don't forget to click the 'Submit' button when you'r
 
 Any questions please email us: <b>untangled@neontribe.co.uk</b>  <br>
 
+Application deadline is 30th June 
+
 {{< app >}}

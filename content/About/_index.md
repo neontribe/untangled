@@ -5,7 +5,7 @@ weight: 1
 ---
 
 <div class="banner">
-    <h3 style="text-align: center;">Free Course / /  13 - 18 Year olds / / 5th - 9th August 2019</h3>
+    <h3 style="text-align: center;">Free Course / /  13 - 18 Year olds / / 5th - 9th August 2019 // Application Deadline 30th June</h3>
 </div>
 
 <br/>
