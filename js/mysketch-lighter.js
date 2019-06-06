@@ -1,9 +1,8 @@
 let angleL = 0.0;
 var hexagonsL = [];
 var coloursL = ["#FFF0FE", "#EBFFFF", "#F5EAFF", "#E9FFF4", "#FFFEE7"];
-var notesL = ["C3", "D3", "E4", "F4", "G5", "A5", "B6", "C6", "D7", "A7",]
+var notesL = ["C3", "D3", "E4", "F4", "G5", "A5", "B6", "C6", "D7", "A7"];
 let numberOfHexagonsL = 15;
-
 
 function polygon(x, y, radius, npoints) {
   let angleL = TWO_PI / npoints;
@@ -17,9 +16,10 @@ function polygon(x, y, radius, npoints) {
 }
 
 class HexAgentL {
+
   constructor(posX, posY, fillColor) {
-    this.mousePos = createVector(mouseX, mouseY)
-    this.size = random(windowWidth / 15 ) + 15;
+    this.mousePos = createVector(mouseX, mouseY);
+    this.size = random(windowWidth / 15) + 15;
     this.fillColor = fillColor;
     this.pos = createVector(posX, posY);
     this.vel = p5.Vector.random2D();
@@ -41,10 +41,13 @@ class HexAgentL {
   }
 
   checkBoundaries() {
-    if (this.pos.x > windowWidth - this.size|| this.pos.x < 0 + this.size) {
+    if (this.pos.x > windowWidth - this.size || this.pos.x < 0 + this.size) {
       this.vel.x = this.vel.x * -1;
     }
-    if (this.pos.y > windowHeight - this.size / 1.25 || this.pos.y < 0 + this.size / 1.25) {
+    if (
+      this.pos.y > windowHeight - this.size / 1.25 ||
+      this.pos.y < 0 + this.size / 1.25
+    ) {
       this.vel.y = this.vel.y * -1;
     }
   }
@@ -64,10 +67,9 @@ class HexAgentL {
         break;
     }
     this.acc = force;
-
   }
 
-  changeState(){
+  changeState() {
     this.acc = createVector(0, 0);
     this.vel = createVector(0.1, 0.1);
     switch (this.currentFeeling) {
@@ -78,7 +80,7 @@ class HexAgentL {
         this.currentFeeling = this.feelings[0];
         break;
     }
-  };
+  }
 
   checkRelationshipStatus() {
     if (millis() > this.relationshipLength) {
@@ -90,15 +92,18 @@ class HexAgentL {
 
 function setup() {
   var myCanvas = createCanvas(windowWidth, windowHeight);
-  myCanvas.class('backgroundsketch');
+  myCanvas.class("backgroundsketch");
   document.body.prepend(myCanvas.canvas);
 
   for (var i = 0; i < numberOfHexagonsL; i++) {
     hexagonsL.push(
-      new HexAgentL(random((windowWidth * 0.1), (windowWidth * 0.9)), random((windowHeight * 0.1),(windowHeight * 0.9)), random(coloursL))
+      new HexAgentL(
+        random(windowWidth * 0.1, windowWidth * 0.9),
+        random(windowHeight * 0.1, windowHeight * 0.9),
+        random(coloursL)
+      )
     );
   }
-
 }
 
 function draw() {
