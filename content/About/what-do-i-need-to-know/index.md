@@ -7,34 +7,35 @@ weight: 2
 
 ## What do I need to know?
 
-##### < How will I know if I have got a place on the course? >
+##### < How do I get to Untangled? >
 
-After you fill in our application form, you'll hear from us around the end of June to let you know if you have a place on the course. We only have alimited number of places so please wait to hear from us.
+We will meet you downstairs in reception at the NUA St Andrews building on St Andrews Street.
+
 <br>
 <br>
 
-##### < If I get a place, what will I be doing? >
+##### < What time do I need to be there? >
+
+Please arrive between 9 & 9.30am and you can leave or be picked up between 4.30 and 5pm.
+<br>
+<br>
+
+##### < What will I be doing? >
 You will be making fun things using computers. Some of this will be writing code, some of it will be talking, designing, planning, breaking stuff, failing, succeeding and hopefully lots of learning. See [some of the examples on the p5.js website](https://p5js.org/examples/) to see the type of things you can do.
 <br>
 <br>
 ##### < What do I need to bring? >
 
-You can bring your own laptop if you want to, but we have computers you can work on if you don’t.
+We will be using the computers at NUA so no need to bring your own, they will have everything you need for the course on them. Bring a notepad and pens to help you plan and communicate your ideas.
 <br>
 <br>
-##### < How do I get to Untangled? >
 
-We are very grateful to be at NUA this year in the St Andrews building on St Andrews Street
-
-We'll let successful applicants know more about how to get there nearer the time
-<br>
-<br>
 ##### < What do I do about food? >
-Please bring a packed lunch with you.
+Please bring a packed lunch with you unless your parents are happy to let you go into the city to get your own lunch.
 <br>
 <br>
 ##### < How many other people will be there? >
-There will be 12 participants altogether, plus a load of coaches from various arts and tech backgrounds.
+There will be 13 participants altogether, plus a load of coaches from various arts and tech backgrounds.
 <br>
 <br>
 ##### < Is there anything I can do to get ready for Untangled? >
