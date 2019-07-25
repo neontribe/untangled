@@ -11,6 +11,11 @@ weight: 2
 
 We will meet you downstairs in reception at the NUA St Andrews building on St Andrews Street.
 
+St Andrews House
+Norwich University of the Arts
+St Andrews St
+Norwich
+NR2 4TP
 <br>
 <br>
 
