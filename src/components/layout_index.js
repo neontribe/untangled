@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import UntangledApp from './app.js'
 
 
+import 'reset-css';
 import "./layout.css"
 
 const LayoutIndex = ({ children }) => {
