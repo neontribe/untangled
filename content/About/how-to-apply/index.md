@@ -6,10 +6,8 @@ weight: 3
 
 ## How to apply
 
-Use the form below to apply don't forget to click the 'Submit' button when you're done.
+The course is over for this year.  We will be running it again in August 2020.  We'll open application around Easter 202.
 
 Any questions please email us: <b>untangled@neontribe.co.uk</b>  <br>
 
-Application deadline is 30th June 
 
-{{< app >}}

@@ -5,14 +5,14 @@ weight: 1
 ---
 
 <div class="banner">
-    <h3 style="text-align: center;">Free Course / /  13 - 18 Year olds / / 5th - 9th August 2019 // Application Deadline 30th June</h3>
+    <h3 style="text-align: center;">Free Course / /  13 - 18 Year olds / / Will be back August 2019</h3>
 </div>
 
 <br/>
 
 ## About Untangled
 
-##### < Are you into coding, technology, designing or making things? >
+##### &lt; Are you into coding, technology, designing or making things? &gt;
 
 Have you ever made a simple website or even made your own game? Maybe you've hacked someone else's website or game apart and made some of your own changes?
 
@@ -24,7 +24,7 @@ Or maybe you've sat in an ICT lesson, knowing that you like the subject, but wis
 
 <br>
 
-##### < What is Untangled? >
+##### &lt; What is Untangled? &gt;
 
 Untangled is a week of experimenting, designing and making using code. This will be a mix of web technology, games, interactive art and using data gathered from the world around you. If you have a mobile phone, this is the one class where you're definitely encouraged to use it.
 
@@ -32,12 +32,12 @@ The course is run by [Neontribe](https://www.neontribe.co.uk/) and there will be
 
 <br>
 
-##### < Who can come? >
+##### &lt; Who can come? &gt;
 
 Untangled is for 13 - 18 year olds who enjoy working with technology, and might have thought about working with technology in the future.
 
 The best thing about it is that it's totally free! At Neontribe, we want to help the next generation of programmers to develop and learn and giving back is part of our culture.
 
-#### < How do I get in touch >
+##### &lt; How do I get in touch &gt;
 
-Please apply using the application form. Any questions please email us: <b>untangled@neontribe.co.uk</b>  <br>
+We'll open applications around Easter 2020. Any questions please email us: <b>untangled@neontribe.co.uk</b>  <br>
