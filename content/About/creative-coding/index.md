@@ -10,7 +10,7 @@ We're not just looking for people who are already confident programmers, but som
 
 We will be using a javascript framework called P5.js which you can use to make games, interactive art, animations, musical instruments, physical models, geolocation tools, maps, generative speech and text, the list goes on and on.
 
-##### < What will I be using? >
+##### &lt; What will I be using? &gt;
 
 We'll be using a Javascript framework called p5.js. It's a layer that sits on top of standard Javascript and lets you work with animation, video, sound etc.
 
