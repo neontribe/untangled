@@ -1,5 +1,32 @@
 import Head from 'next/head';
 import About from '../content/about.mdx';
+import dynamic from 'next/dynamic';
+
+const P5Wrapper = dynamic(() => import('react-p5-wrapper'), { ssr: false });
+
+const sketch = p => {
+  let rotation = 0;
+
+  p.setup = function() {
+    p.createCanvas(600, 400, p.WEBGL);
+  };
+
+  p.myCustomRedrawAccordingToNewPropsHandler = function(props) {
+    if (props.rotation !== null) {
+      rotation = (props.rotation * Math.PI) / 180;
+    }
+  };
+
+  p.draw = function() {
+    p.background(100);
+    p.normalMaterial();
+    p.noStroke();
+    p.push();
+    p.rotateY(rotation);
+    p.box(100);
+    p.pop();
+  };
+};
 
 const Home = () => (
   <div className="container">
@@ -9,6 +36,7 @@ const Home = () => (
     </Head>
     <main>
       <h1 className="title">Untangled</h1>
+      <P5Wrapper sketch={sketch} />
       <About />
     </main>
     <footer>
