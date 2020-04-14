@@ -11,7 +11,12 @@ const sketch = p => {
   let size = 0;
   let bgColor = p.color(255, 255, 255);
 
-  p.setup = () => {};
+  p.setup = () => {
+    const canvas = p.createCanvas(p.windowWidth, p.windowHeight);
+    canvas.position(0, 0);
+    canvas.style('position', 'fixed');
+    canvas.style('z-index', '-1');
+  };
 
   p.myCustomRedrawAccordingToNewPropsHandler = (props) => {
     if (props.weatherData) {
