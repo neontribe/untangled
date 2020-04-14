@@ -16,6 +16,11 @@ const sketch = p => {
     canvas.position(0, 0);
     canvas.style('position', 'fixed');
     canvas.style('z-index', '-1');
+
+    window.onresize = () => {
+      p.resizeCanvas(p.windowWidth, p.windowHeight);
+      p.redraw();
+    }
   };
 
   p.myCustomRedrawAccordingToNewPropsHandler = (props) => {
